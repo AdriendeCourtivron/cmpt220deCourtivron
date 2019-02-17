@@ -12,6 +12,7 @@ public class Problem3 {
 		double lowNum = input.nextByte(); 
 		System.out.println("please enter the high number");
 		double highNum = input.nextByte();
+		// JA: You had to generate three random integers
 		double ans = Math.random() * (highNum - lowNum) + lowNum;
 		System.out.println("The number is" + ans);
 	}
