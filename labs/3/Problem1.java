@@ -18,7 +18,7 @@ public class Problem1 {
 			count++;
 			System.out.println("Please enter a number: ");
 			number = input.nextInt();
-			if (number / 2 == 0)
+			if (number % 2 == 0) // JA
 				evens++;
 			sum += number;
 			

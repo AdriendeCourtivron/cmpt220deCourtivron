@@ -5,7 +5,7 @@ public class Problem2
 	public static void main(String[] args)
 	{
 		System.out.println("This will print out all numbers from 100 to 500 that are "
-				+ "disivble by  5 or 7");
+				+ "disivble by  5 or 7"); // JA: but not both
 		int number = 100;
 		while (number <= 500)
 		{

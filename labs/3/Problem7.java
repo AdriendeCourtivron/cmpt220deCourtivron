@@ -16,7 +16,7 @@ public class Problem7
 		for (int count = 0; count < 50; count++)
 		{
 			num = (num * 3);
-			double finalNum =Math.pow(num,2) - num % 2;
+			double finalNum =(Math.pow(num,2) - num) / 2; // JA
 			if (count %10 == 0)
 			{
 				System.out.println(finalNum);
