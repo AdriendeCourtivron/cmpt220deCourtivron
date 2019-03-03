@@ -13,7 +13,7 @@ public class problem5
 
 		    for (int i = 0; i < 1000; i++)
 		    {
-		    	number = (int) Math.random() * 100;
+		    	number = (int) (Math.random() * 100); // JA
 		    	numbers[i] = number;
 		    	
 		    	total = total + number;

@@ -32,7 +32,7 @@ public class Problem3 {
 				}
 			}	
 		}
-		if (palindrome == numWord)
+		if (palindrome.equals(numWord)) // JA
 		{
 			System.out.print("\n" + "TRUE");
 		}

@@ -5,7 +5,7 @@ public class Problem4
 		{
 			Scanner input = new Scanner(System.in);
 			System.out.println("plese enter a string");
-			String word = input.next();
+			String word = input.next(); // JA: You have to use nextLine() to read the whole string
 			int numWord = word.length();
 			int count = 0;
 			char [] letters = new char [numWord];
