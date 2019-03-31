@@ -1,4 +1,5 @@
 
+// JA: No test class?
 public class SoccerMatch
 {
 	double startTime = 1;
@@ -6,9 +7,9 @@ public class SoccerMatch
 	String location = "Stamford";
 	String home = "Winner";
 	String visitor = "Losers";
-	int homePlayers[] = new int [11];
+	int homePlayers[] = new int [11]; // This had to be an array of Player objects
 	int awayPlayers[] = new int [11];
-	int homeGoal = 0;
+	int homeGoal = 0; // This had to be an array of Goal objects
 	int awayGoal = 0;
 	SoccerMatch()
 	{

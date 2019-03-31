@@ -20,7 +20,8 @@ public class Bond
 	}
 	double getPrice()
 	{
-		return (coupon * (1-(1/(Math.pow(1+interest,payments)))+valueMaturity * 1/Math.pow(1+interest, payments)));
+		// JA
+		return (coupon * (1-(1/(Math.pow(1+interest,payments))))+valueMaturity * 1/Math.pow(1+interest, payments));
 	}
 }
 

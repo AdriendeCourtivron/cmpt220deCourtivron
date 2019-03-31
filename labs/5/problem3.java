@@ -5,6 +5,7 @@ public class problem3
 	public static void main(String[] args) 
 	{
 		Scanner input = new Scanner (System.in);
+		// JA: These could be in a loop
 		System.out.println("please enter the first number");
 		int num1 = input.nextInt();
 		System.out.println("please enter the second number");

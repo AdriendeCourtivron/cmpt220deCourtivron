@@ -60,7 +60,7 @@ public class Problem2
 		{
 			newMean += number[i];
 		}
-		newMean = newMean / 10;
+		newMean = newMean / 9; // JA
 		finalVal = Math.sqrt(newMean);
 		return finalVal;
 	}

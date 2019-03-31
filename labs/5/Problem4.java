@@ -8,6 +8,7 @@ public class Problem4
 	   public static void main(String[] args) 
 	   {
 	        Scanner input = new Scanner(System.in);
+			// JA: These should be in a loop
 			System.out.println("please enter the first number");
 			int num1 = input.nextInt();
 			System.out.println("please enter the second number");
