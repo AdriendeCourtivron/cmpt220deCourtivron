@@ -8,6 +8,6 @@ public class Problem1
 		System.out.println("Please enter your Long Value");
 		long thierLong = input.nextLong();
 		MyLong myLong = new MyLong(thierLong);
-		
+		// JA: You should print the values
 	}
 }
