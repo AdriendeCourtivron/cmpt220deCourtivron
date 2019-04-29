@@ -10,6 +10,7 @@ public class Course
 		this.courseName = courseName;
 	}
 	
+	// JA: You should not change the contract of the method
 	public ArrayList getStudents() 
 	{
 		return students;

@@ -13,7 +13,7 @@ public class RandomArray
 			
 		}//Listen ends
 		
-	
+		// Where do you handle the exception?
 		System.out.println("please enter the placement of a number");
 		int choice = input.nextInt();
 		for( int i = 0; i < random.length; i++)

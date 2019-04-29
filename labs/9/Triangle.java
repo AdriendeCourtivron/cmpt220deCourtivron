@@ -12,7 +12,7 @@ public class Triangle
 	}
 	 Triangle (double side1, double side2, double side3)
 	 {
-		 if (side1 + side2 <= side3)
+		 if (side1 + side2 <= side3) // JA: You need to handle all the cases
 		 {
 			 throw new IllegalTriangle();
 		 }

@@ -22,6 +22,8 @@ public class Sort
 			
 
 	}
+	
+	// JA: You had to code the algorithm
 	public static void sort(ArrayList sort) 
 	{
 		Collections.sort(sort);
