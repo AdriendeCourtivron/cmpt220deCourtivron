@@ -1,4 +1,4 @@
-
+// JA: Where is the test class?
  abstract class Appliance 
 {
 	double voltage;
